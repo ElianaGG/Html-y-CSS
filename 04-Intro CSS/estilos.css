@@ -1,0 +1,39 @@
+h1 {
+    color: blueviolet;
+}
+
+/*Así se hacen comentarios*/
+p {
+    color: teal;
+    font-size: 16pt;
+}
+
+#primer-parrafo {
+    color: cadetblue;
+    font-size: 12pt;
+}
+
+#segundo-parrafo {
+    color: coral;
+}
+
+.encabezado {
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+
+*.warning{
+    color:red;
+}
+
+.autor{
+    text-decoration: underline;
+}
+
+.fecha{
+    text-decoration: underline;   
+}
+
+.ubicacion{
+    text-decoration: underline;
+}
