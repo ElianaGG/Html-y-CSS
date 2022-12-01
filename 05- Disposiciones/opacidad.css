@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+.imagen-principal {
+    width: 100vw; /*100% de la pantalla*/
+    opacity: 0.3;
+}
+
+/*Cuando paso por encima de la img se nota color*/
+.imagen-principal:hover {
+    opacity: 1;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagen-galeria {
+    width: 625px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+div {
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+/*Por defecto el posicionamiento es estático*/
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/*Se a quedar fijo en la parte que deseo*/
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color:  rgb(240, 109, 109);
+    z-index: 10;
+}
+
+.absolute {
+    position: absolute;
+    top: 0px;
+}
+
+/*Al realizar scroll se queda en su posicionamiento, se sobrepone*/
+.sticky {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(101, 41, 156);
+    color: white;
+}
+
+.relleno {
+    background-color: darkgrey;
+    width: 200px;
+    height: 300px;
+}

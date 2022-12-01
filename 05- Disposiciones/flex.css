@@ -1,0 +1,29 @@
+/*https://codepen.io/enxaneta/full/adLPwv*/
+.flex {
+    display: flex;
+    background-color: violet;
+    height: 400px;
+    justify-content: space-around; /*voy ajustando como quiero*/
+    align-items: center; /*por defecto se expande el div al div padre con esto modifico*/
+}
+
+.contenido-1 {
+    background-color: rgb(148, 50, 82);
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido-2 {
+    background-color: rgb(148, 50, 82);
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.contenido-3 {
+    background-color: rgb(148, 50, 82);
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
