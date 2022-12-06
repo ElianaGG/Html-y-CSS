@@ -1,0 +1,7 @@
+section.main .contenedor p {
+    color: brown;
+}
+
+section.main .contenedor #boton-contenedor {
+    background-color: darkkhaki;
+}

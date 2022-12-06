@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(103, 39, 163);
+}
+
+h1 {
+    color: aquamarine /*!important*/;
+} /*Este pisa el anterior, CSS se lee de arriba hacía abajo*/
+
+/*Ver selector specificity*/
+.h1-clase {
+    color: brown;
+} /*Este pisa los h1 anteriores por especificidad*/
+
+#h1-id {
+    color: rgb(119, 88, 212);
+} /*Este pisa cualquiera por mayor especificidad*/
+
+/*Un 4to nivel de especificidad es escribir style en html*/
+/*Un 5to nivel es escribir !important al lado de color*/
+p {
+    color: coral;
+}

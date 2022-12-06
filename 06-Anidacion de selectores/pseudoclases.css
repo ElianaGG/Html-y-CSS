@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+
+.hover:hover {
+    /*Se activa cuando el ratón pasa por encima*/
+    background-color: rgb(235, 160, 68);
+}
+
+.listado {
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.listado p:first-child {
+    /*Referencia a los primeros p hijos*/
+    color: white;
+}
+
+/*Se debe mantener el siguiente orden para que no se pisen los estilos*/
+a:link {
+    color: palevioletred;
+}
+
+a:visited {
+    color: rgb(145, 48, 80);
+}
+
+a:hover {
+    color: rgb(227, 162, 217);
+}
+
+a:active {
+    color: greenyellow;
+}
