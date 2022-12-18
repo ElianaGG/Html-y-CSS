@@ -1,0 +1,62 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(204, 177, 229);
+    /*transition: all 1s ease-in 2s;*/
+}
+
+.padre:hover .hijo {
+    /*transform: translate(100%);
+    background-color: blanchedalmond;*/
+    animation: traslacion 4s ease-in alternate;
+}
+
+/*@keyframes traslacion {
+    0% {
+        background-color: pink;
+        transform: translate(0%);
+    }
+
+    50% {
+        background-color: bisque;
+        transform: translate(10%) translateY(50%);
+    }
+
+    100% {
+        background-color: indianred;
+        transform: translate(100%);
+    }
+}*/
+
+@keyframes traslacion {
+    0% {
+        background-color: pink;
+        transform: translateX(0%) translateY(0%);
+    }
+
+    25% {
+        background-color: rgb(234, 99, 121);
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50% {
+        background-color: rgb(229, 52, 81);
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75% {
+        background-color: rgb(86, 8, 21);
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100% {
+        background-color: rgb(0, 0, 0);
+        transform: translateX(0%) translateY(0%);
+    }
+}
