@@ -1,0 +1,22 @@
+h1 {
+    color: cadetblue;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/*Desde 0 a 576 px*/
+@media (max-width: 576px), (min-height: 100px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/*@media (orientation: landscape) {
+    p {
+        color: brown;
+    }
+}*/
